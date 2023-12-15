@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Working Toward Financial Security</title>
+        <style>
+            * {
+                font-family: sans-serif;
+            }
+            div {
+                border: 1px solid #ddd;
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            const jobData = {
+                "Video Game Developer": {
+                    "Salary": "35,000 - 130,000 / year",
+                    "Education": "Bachelor's degree in game development, computer science, or a related field",
+                    "Overview": "Video game development is a collaborative process involving designers, writers, artists, animators, programmers, musicians, and playtesters. Designers plan gameplay details, writers create compelling stories, artists and animators design visuals, programmers code and handle AI, musicians add music, and playtesters identify bugs. Producers oversee the process. Consider a career in video game development if you want to contribute to this dynamic and creative field.",
+                    "Career Paths": "A career in game development can lead to diverse opportunities. Game designers may transition to UX or product design, writers to content creation, and artists to animation or digital media. Programmers can explore software development or specialize in virtual reality. Musicians and sound designers may find roles in film or entertainment. The skills acquired, like problem-solving and creativity, are valuable in areas such as simulation development, educational technology, or project management. Game development opens doors to a range of rewarding career paths.",
+                    "Pros": [
+                        "Creativity: Game development allows for creative expression in designing engaging and immersive experiences.",
+                        "Innovation: Constantly evolving technology provides opportunities for cutting-edge work and innovation.",
+                        "Team Collaboration: Working in a team fosters collaboration and the opportunity to learn from diverse talents.",
+                        "Global Industry: The gaming industry is globally connected, providing opportunities for international collaboration and exposure.",
+                        "Job Satisfaction: Creating games that entertain and captivate players can be highly rewarding.",
+                        "Versatility: Skills gained in game development are transferable to other industries, broadening career options.",
+                        "Competitive Salaries: Skilled professionals in the industry often receive competitive salaries."
+                    ],
+                    "Cons": [
+                        "Crunch Time: Tight deadlines can lead to extended work hours during 'crunch' periods, impacting work-life balance.",
+                        "Job Insecurity: The industry can be volatile, with studio closures and project cancellations affecting job stability.",
+                        "High Expectations: The demand for high-quality games puts pressure on developers to consistently deliver exceptional work.",
+                        "Technological Changes: Rapid advancements in technology require continuous learning to stay relevant.",
+                        "Intense Competition: Breaking into the industry can be competitive, especially for entry-level positions.",
+                        "Project Uncertainty: Games in development may face cancellations or drastic changes, impacting the work invested.",
+                        "Emotional Investment: Developers may become emotionally attached to their projects, making setbacks or criticisms particularly challenging."
+                    ]
+                },
+                "Computer Hardware Engineer": {
+                    "Salary": "77,100 - 208,000 / year",
+                    "Education": "Bachelor's degree in computer engineering or related field",
+                    "Overview": "Computer hardware engineers design and develop computer systems and components. They work on the physical aspects of computers, including the central processing unit (CPU), memory, and circuit boards. These professionals collaborate with software engineers to ensure hardware and software compatibility. If you are interested in the intersection of technology and engineering, a career as a computer hardware engineer may be a suitable path.",
+                    "Career Paths": "Computer hardware engineers may advance to roles such as hardware architects, systems designers, or even move into managerial positions. Some choose to specialize in emerging technologies, such as quantum computing or hardware for artificial intelligence. The skills acquired in computer hardware engineering also open doors to broader technology-related fields, including research and development.",
+                    "Pros": [
+                        "Innovation: Computer hardware engineers contribute to the advancement of technology by designing and improving computer systems.",
+                        "Job Variety: The role involves working on various aspects of computer hardware, providing a diverse and interesting set of challenges.",
+                        "High Demand: The demand for skilled computer hardware engineers is consistently high, leading to favorable job prospects.",
+                        "Intellectual Stimulation: Solving complex problems and optimizing hardware performance can be intellectually stimulating.",
+                        "Technological Evolution: The field evolves with technology, offering opportunities for continuous learning and skill development.",
+                        "Industry Versatility: Skills acquired in computer hardware engineering are transferable to other technology-related fields.",
+                        "Competitive Salaries: Skilled professionals are often rewarded with competitive salaries."
+                    ],
+                    "Cons": [
+                        "Detail-Oriented Work: The job requires meticulous attention to detail, as small errors can have significant consequences.",
+                        "Continuous Learning: Staying updated on rapidly evolving technology trends and advancements is essential.",
+                        "Pressure for Accuracy: Precision is crucial in hardware design, and mistakes can lead to malfunctions or system failures.",
+                        "Hardware Limitations: Engineers may face challenges related to limitations in current hardware technology.",
+                        "Team Collaboration: While collaboration is essential, the role can also involve significant independent work.",
+                        "Market Competition: The competitive nature of the industry may require engineers to stay ahead of emerging technologies.",
+                        "Occasional Stress: Tight deadlines and project pressures may contribute to periods of stress."
+                    ]
+                },
+                "Petroleum Engineer": {
+                    "Salary": "78,390 - 208,000 / year",
+                    "Education": "Bachelor's degree in petroleum engineering or a related field",
+                    "Overview": "Petroleum engineers play a crucial role in the extraction of oil and gas resources. They design and develop methods to extract these resources from the earth's surface, considering economic and environmental factors. This field involves a combination of engineering, geology, and environmental science. If you are interested in contributing to the energy sector and have a strong foundation in science and engineering, a career as a petroleum engineer may be a fulfilling choice.",
+                    "Career Paths": "Petroleum engineers may progress to roles such as reservoir engineers, drilling engineers, or even move into leadership and managerial positions. Some choose to specialize in areas such as enhanced oil recovery or environmental management within the energy sector. Additionally, the skills acquired in petroleum engineering can open doors to roles in research, consulting, or regulatory affairs related to energy and natural resources.",
+                    "Pros": [
+                        "Financial Rewards: Petroleum engineers often enjoy lucrative salaries due to the high demand for their expertise in the energy sector.",
+                        "Global Opportunities: The oil and gas industry operates globally, offering opportunities for international work and collaboration.",
+                        "Technological Advancements: Engineers work on cutting-edge technologies to optimize the extraction of oil and gas resources.",
+                        "Problem Solving: The role involves addressing complex challenges related to resource extraction and reservoir management.",
+                        "Career Stability: The global demand for energy contributes to a stable job market for petroleum engineers.",
+                        "Collaboration: Petroleum engineers collaborate with multidisciplinary teams, including geologists and environmental scientists.",
+                        "Innovation: The field continuously evolves, providing opportunities for engineers to contribute to industry innovations."
+                    ],
+                    "Cons": [
+                        "Environmental Concerns: Extracting oil and gas can have environmental impacts, leading to ethical considerations for engineers.",
+                        "Market Dependency: The industry's stability is closely tied to global economic and market fluctuations.",
+                        "Regulatory Challenges: Engineers must navigate complex regulatory frameworks related to resource extraction.",
+                        "Fieldwork Demands: Some roles may involve extensive fieldwork in challenging environments, impacting work-life balance.",
+                        "Oil Price Volatility: The fluctuating prices of oil can influence job security and project viability.",
+                        "Project Risks: The exploration and extraction process involves inherent risks, impacting project success.",
+                        "Specialized Knowledge: The specific expertise required in petroleum engineering may limit career mobility outside the industry."
+                    ]
+                }
+            };
+            for (const [jobTitle, jobDetails] of Object.entries(jobData)) {
+                // Creating a div element for each job
+                const jobDiv = document.createElement('div');
+
+                // Populating the div with job details
+                jobDiv.innerHTML = `
+            <h1>${jobTitle}</h1>
+            <small>Education: ${jobDetails.Education}</small>
+            <br />
+            <small>Salary: ${jobDetails.Salary}</small>
+            <p>${jobDetails.Overview}</p>
+            <br />
+            <p>${jobDetails["Career Paths"]}</p>
+            <h2>Pros:</h2>
+            <ul>${jobDetails.Pros.map(pro => `<li>${pro}</li>`).join('')}</ul>
+            <h2>Cons:</h2>
+            <ul>${jobDetails.Cons.map(con => `<li>${con}</li>`).join('')}</ul>
+            <img src="${jobTitle.toLowerCase().replace(/\s+/g, '-')}.jpg" alt="${jobTitle} Image" />
+        `;
+
+                // Appending the created div to the body
+                document.body.appendChild(jobDiv);
+            }
+        </script>
+    </body>
+</html>
